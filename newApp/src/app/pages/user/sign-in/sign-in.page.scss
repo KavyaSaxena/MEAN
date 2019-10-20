@@ -1,0 +1,17 @@
+:host {
+    ion-content {
+        --background: linear-gradient(135deg, var(--ion-color-dark), var(--ion-color-primary));
+    }
+}
+
+.paz {
+    position: relative;
+    z-index: 10;
+}
+:host(.button-full) .button-native {
+    margin-left: 110%;
+    margin-right: 100%;
+    display: block;
+    width: 100%;
+    contain: content;
+}
